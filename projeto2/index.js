@@ -43,3 +43,11 @@ console.log(animais); //7
 
 var mySentence = 'Programming is so interest!'; //1
 console.log(mySentence.length); //2
+
+//Defina uma função hello que retorna 'Hello world!'.
+function hello(){
+    return 'Hello world!';
+   }
+   
+   let result = hello();
+
