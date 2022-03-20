@@ -47,7 +47,14 @@ console.log(mySentence.length); //2
 //Defina uma função hello que retorna 'Hello world!'.
 function hello(){
     return 'Hello world!';
+}
+   
+//Defina duas funções. A primeira função a deve retornar 'Hello a!'e a segunda função b deve retornar 'Hello b!'.
+function a(){
+    return 'Hello a!';
    }
    
-   let result = hello();
-
+   function b(){
+    return 'Hello b!';
+   }
+   
