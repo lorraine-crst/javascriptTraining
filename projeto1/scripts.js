@@ -1,40 +1,25 @@
-let nome;
-        nome = window.prompt('Entre com seu nome:');
-        document.write('olá ' + nome + ' seja bem vindo');
 
 
-let a =  7;
-let b = 8;
-let c = a + b;
-document.write(c);
+/*Seu desafio de hoje é criar os destinos possíveis de um jogo, em que a pessoa jogador consiga escolher:
 
+No início de seus estudos, onde poderá escolher entre seguir para área de front-end ou seguir para a área de back-end
 
-let d = true;
-let e = false;
-let f = d + e;
-document.write(f); 
+No meio, onde caso esteja na área de front-end, ela poderá seguir aprendendo React ou seguir aprendendo Vue e, caso esteja na área de back-end, poderá seguir aprendendo C# ou seguir aprendendo Java
 
-/**
-* Siga os passos comentados para escrever um pedaço de código
-*/
+No fim, onde, independente de suas escolhas anteriores, ela poderá escolher entre seguir se especializando na área escolhida ou seguir se desenvolvendo para se tornar fullstack
 
- // 1. Declare uma variável z e atribua o número 7,25 a ela.
+O importante é que a pessoa que jogar possa sempre escolher qual decisão tomar para conseguir aprender e se desenvolver na área de programação */
 
+let caminho = window.prompt('Escolha qual area da programação deseja seguir: \n(1)front-end ou (2)back-end.');
 
- // 2. Escreva uma instrução console.log na qual você registra o valor de z.
+if(caminho == 1){
+        let frontend = window.prompt('Escolha qual area do front-end deseja seguir: \n(1)React ou (2)Vue.js .');
+}
 
+if(caminho == 2){
+        let backend = window.prompt('Escolha qual area do back-end deseja seguir: \n(1)C# ou (2)Java .');
+}
 
- // 3. Declare outra variável a que tenha o valor de z, mas arredondada para o inteiro mais próximo.
+let escolhaFinal = window.prompt('Escolha qual area do desenvolvimento deseja seguir: \n(1)Especilização ou (2)Fullstack.');
 
-
- // 4. Escreva uma instrução console.log na qual você registra o valor de a.
-
-
- // 5. Então agora temos z e a encontram uma maneira de comparar os dois valores e logar true se a for maior que z ou false se a for menor que z.
-
- let z = 7.25; //1
- console.log(z);//2
- a = Math.round(z);//3
-
- console.log(a);//4
- console.log(a > z);
+console.log(caminho, escolhaFinal);
