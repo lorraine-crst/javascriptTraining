@@ -48,13 +48,13 @@ console.log(mySentence.length); //2
 function hello(){
     return 'Hello world!';
 }
-   
+
 //Defina duas funções. A primeira função a deve retornar 'Hello a!'e a segunda função b deve retornar 'Hello b!'.
 function a(){
     return 'Hello a!';
-   }
+}
    
-   function b(){
+function b(){
     return 'Hello b!';
-   }
+}
    
