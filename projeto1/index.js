@@ -1,15 +1,4 @@
-/* 
-* Escreva uma instrução, usando a função console.log(). Deve cumprir os seguintes requisitos:
-* Recebe uma string como argumento
-* A string deve conter a mensagem "Hello world!"
-* Execute o arquivo 5 vezes, cada vez usando a frase em diferentes idiomas
-*/
 
-console.log('Hei Verden!!'); // noruegues
-console.log('Bonjour le Monde!!'); //frances
-console.log('Hallo Welt!!'); //alemao
-console.log('Aloha Honua!!'); //havaiano
-console.log('Moien Welt!!'); //luxemburgues
 
 
 /**
