@@ -44,3 +44,7 @@ console.log(multiplyFive(6));
 // Make your prompt box below!
 var test = prompt('Hi!');
 console.log(test);
+
+//Altere o segundo elemento da matriz groceryListpara 'avocados'.
+let groceryList = ['bread', 'tomatoes', 'milk'];
+groceryList[1] = 'avocados';
