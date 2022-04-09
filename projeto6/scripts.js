@@ -12,3 +12,30 @@ function checkNumber(myNumber)
 checkNumber(3);
 checkNumber(7);
 checkNumber(42);
+
+/*Abaixo das duas matrizes existentes, reatribua o elemento no índice 0de condimentsa 'Mayo'.
+
+Registre a matriz atualizada, condiments, no console.
+
+Abaixo do seu código da Etapa 1, reatribua condimentspara ser uma nova matriz que contém uma única string['Mayo']
+
+Registre o resultado no console.
+
+Observe que você pode reatribuir elementos em uma matriz e reatribuir uma nova matriz inteira a uma variável declarada usando a palavra- letchave.
+
+Abaixo do código da Etapa 2, reatribua o último item da utensilsmatriz para 'Spoon'.
+
+Registre a matriz atualizada no console.*/
+
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments[0] = 'Mayo';
+console.log(condiments);
+
+condiments = ['Mayo'];
+console.log(condiments);
+
+utensils[3] = 'Spoon';
+console.log(utensils);
