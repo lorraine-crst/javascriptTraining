@@ -13,3 +13,8 @@ var meaningOfLife = myNumber * 2;
 
 console.log("The name is " + fullName);
 console.log("The meaning of life is " + meaningOfLife);
+
+//Encontre o length da objectivesmatriz e registre-o no console.
+const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
+
+console.log(objectives.length);
