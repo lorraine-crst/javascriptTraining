@@ -41,8 +41,7 @@ console.log(animais); //7
 
 // 2. Descubra (usando o Google) como obter o comprimento de mySentence. Em seguida, escreva uma instrução console.log para registrar o comprimento de mySentence.
 
-var mySentence = 'Programming is so interest!'; //1
-console.log(mySentence.length); //2
+
 
 //Defina uma função hello que retorna 'Hello world!'.
 function hello(){
